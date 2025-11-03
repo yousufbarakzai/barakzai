@@ -1,0 +1,72 @@
+/* پس‌زمینه صفحه */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Tahoma", sans-serif;
+}
+
+/* باکس فرم */
+.login-box {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 15px;
+  width: 320px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* فیلدهای ورودی */
+.input-box {
+  margin: 15px 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: rgba(255,255,255,0.1);
+  color: white;
+}
+
+/* دکمه */
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #0078ff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #005fcc;
+}
+
+/* گزینه‌های پایین فرم */
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signup {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.signup a {
+  color: #00aaff;
+  text-decoration: none;
+}
